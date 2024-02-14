@@ -1,0 +1,411 @@
+header {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    background-color: white;
+
+}
+
+.couleur {
+    background-color: gray;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    top: 100px;
+    position: absolute;
+    width: 70%;
+    justify-items: right;
+    margin-left: 370PX;
+
+}
+
+ul {
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+
+
+
+}
+
+li {
+    border: 1px solid;
+
+}
+
+ul li a {
+    text-decoration: overline;
+    color: black;
+
+}
+
+
+li:hover {
+    background-color: gray;
+    color: white;
+
+
+}
+
+ul .active a {
+    background-color: red;
+    color: white;
+
+
+}
+
+header img {
+    width: 20%;
+    height: 20%;
+
+
+}
+
+
+.auteur {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/conducteur.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.presentation {
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    color: white;
+}
+
+.presentation div {
+    height: 250px;
+}
+
+.presentation h1 {
+    font-size: x-large;
+}
+
+.presentation div h1 {
+    text-align: center;
+}
+
+.presentation div p {
+    text-align: center;
+}
+
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.debut {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fin {
+    align-items: center;
+    text-align: left;
+    background-color: #888;
+    color: #fff;
+    height: 160px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+div h1 {
+    font-size: 70px;
+}
+
+div p {
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+.couleur {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+
+header.image {
+    width: 100%;
+}
+
+.blanc {
+    background-color: white;
+
+
+
+
+
+
+}
+
+
+.images1 img {
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+
+
+
+
+}
+
+.carpresent {
+    background-color: darkred;
+    color: white;
+
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+
+h3 {
+    text-decoration: underline;
+}
+
+
+
+.images2 img {
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+
+
+
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #888;
+    color: black;
+
+}
+
+td,
+th {
+    border: 1px solid;
+
+}
+
+
+
+.body1 {
+    background-color: white;
+}
+
+.couleur1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.couleur01 a {
+    color: white;
+}
+
+.couleur1 a {
+    color: white;
+}
+
+.couleur2 a {
+    color: white;
+}
+
+
+header.image {
+    width: 100%;
+}
+
+.blanc {
+
+
+    width: 100%;
+
+
+}
+
+.images4 img {
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+
+
+
+
+}
+
+.images5 img {
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+
+
+.couleur2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.avis0 {
+    background-color: #f5f5f5;
+}
+
+h4 {
+    background-color: #f5f5f5;
+}
+
+
+header.image {
+    width: 100%;
+}
+
+
+
+.images6 img {
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.images7 img {
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+
+
+}
+
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+
+
+
+}
+
+h4 {
+    text-align: center;
+}
+
+.avis1 {
+
+    display: flex;
+}
+
+.avis2 {
+    display: flex;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    width: 50%;
+
+}
+
+h4 {
+    font-size: 30PX;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.testimonial p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-style: italic;
+    color: #888;
+}
+
+.pageR {
+    text-align: center;
+
+}
+
+.pageR a {
+    color: black;
+}
+
+
+/* Styles pour les écrans plus petits, comme les téléphones */
+@media screen and (max-width: 600px) {
+    /* Styles spécifiques aux téléphones */
+}
